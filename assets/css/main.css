@@ -1,0 +1,62 @@
+.wrapper {
+  display: grid;
+  font-size: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+
+p {
+  margin: 0em;
+}
+
+#name {
+  font-size: 60px;
+}
+
+#contact {
+  font-size: 12px;
+}
+
+.category {
+  font-weight: bold;
+}
+
+.jobtitle {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 15px;
+}
+
+.description {
+  font-size: 12px;
+  line-height: 150%;
+}
+
+
+.tasks {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+
+li {
+  font-size: 12px;
+}
+
+ul{
+  padding-left:0;
+}
+
+footer {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}

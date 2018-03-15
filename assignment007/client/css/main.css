@@ -21,6 +21,15 @@ li, p {
     line-height: 1.5em;
     font-size: 0.9em;
 }
+
+img {
+  width: 300px;
+  border: solid 1px #CCC;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px;
+}
+
 #main {
     width: 70vw;
     margin-left: auto;

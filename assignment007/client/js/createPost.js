@@ -1,6 +1,7 @@
 const createPost = () => {
     const data = {
         name: document.querySelector('#name').value,
+        imageURL: document.querySelector('#imageURL').value,
         url: document.querySelector('#url').value,
         text: document.querySelector('#text').value
     }
@@ -13,6 +14,7 @@ const createPost = () => {
     }).then(function(response) {
         return response.json();
     }).then(function(data) {
+      // after form is sent out, the boxes are cleared out.
         document.querySelector('#name').value = ''
         document.querySelector('#url').value = ''
         document.querySelector('#text').value = ''

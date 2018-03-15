@@ -1,3 +1,7 @@
+// when user asks for the posts, we will give them a status code of 200 and
+// send req.store.posts
+// store and posts are in the main app.js file. The response was attached in the
+// middleware in app.js. See those notes. 
 module.exports = {
     getPosts(req, res) {
         console.log('\n\n-------- YOUR DATA STORE --------')
